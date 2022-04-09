@@ -10,7 +10,7 @@ class Controller(object):
         self.pipes = []
         self.create_pipes()
         self.current_pipe = False
-        self.score = 6
+        self.score = 0
 
     def update(self):
         self.bird.move()
